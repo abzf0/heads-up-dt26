@@ -56,16 +56,16 @@ import json
 # training can override it by setting P5_PARAMS_JSON before starting a bot.
 # All settings live in the YOUR CODE HERE section; server plumbing is unchanged.
 _DEFAULT_V5_PARAMS = {
-    "preflop_raise_shift": 0.0,
-    "passive_exploit_scale": 1.0,
-    "postflop_value_shift": 0.0,
-    "facing_value_shift": 0.0,
+    "preflop_raise_shift": 0.00195,
+    "passive_exploit_scale": 1.46182,
+    "postflop_value_shift": -0.00703,
+    "facing_value_shift": 0.01484,
     "call_margin_shift": 0.0,
-    "tight_raise_penalty_scale": 1.0,
-    "bluff_frequency_scale": 1.0,
+    "tight_raise_penalty_scale": 1.1427,
+    "bluff_frequency_scale": 0.55945,
     "bluff_fold_gate_shift": 0.0,
-    "adapt_fold_pressure": 0.6,
-    "adapt_check_defense": 0.7,
+    "adapt_fold_pressure": 0.65413,
+    "adapt_check_defense": 0.90356
 }
 
 _PARAM_BOUNDS = {
