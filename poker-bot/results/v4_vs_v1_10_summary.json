@@ -1,0 +1,15 @@
+{
+  "matches": 10,
+  "total_duplicate_deals": 10000,
+  "weighted_mean_bb_per_deal": 1.93725,
+  "median_match_bb_per_deal": 1.9675000000000002,
+  "best_match_bb_per_deal": 2.704,
+  "worst_match_bb_per_deal": 1.432,
+  "verdicts": {
+    "AGENT1_WIN": 10
+  },
+  "pooled_95pct_ci_bb_per_deal": [
+    1.6798232032799285,
+    2.1946767967200715
+  ]
+}
