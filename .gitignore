@@ -2,4 +2,40 @@
 .venv
 .env
 __pycache__
-benchmarks
+benchmarks# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Training outputs
+training/results/
+training/logs/
+training/tmp/
+
+# Benchmark outputs
+benchmarks/
+results/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Local environment variables
+.env
+.env.*
+!.env.example

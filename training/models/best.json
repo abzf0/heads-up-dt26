@@ -1,0 +1,31 @@
+{
+  "params": {
+    "preflop_raise_shift": 0.00195,
+    "passive_exploit_scale": 1.46182,
+    "postflop_value_shift": -0.00703,
+    "facing_value_shift": 0.01484,
+    "call_margin_shift": 0.0,
+    "tight_raise_penalty_scale": 1.1427,
+    "bluff_frequency_scale": 0.55945,
+    "bluff_fold_gate_shift": 0.0,
+    "adapt_fold_pressure": 0.65413,
+    "adapt_check_defense": 0.90356
+  },
+  "fitness": 0.759746,
+  "trained_opponents": [
+    "v3c",
+    "v4",
+    "v3",
+    "random",
+    "calling",
+    "half",
+    "pot"
+  ],
+  "training_seeds": [
+    10,
+    11,
+    12
+  ],
+  "deals_per_seed": 300,
+  "warning": "Requires independent validation before deployment."
+}
